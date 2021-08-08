@@ -1,0 +1,17 @@
+enum POSITION {
+    TOP_LEFT,
+    TOP_CENTER,
+    TOP_RIGHT,
+    LEFT_TOP,
+    LEFT_CENTER,
+    LEFT_BOTTOM,
+    CENTER,
+    RIGHT_TOP,
+    RIGHT_CENTER,
+    RIGHT_BOTTOM,
+    BOTTOM_LEFT,
+    BOTTOM_CENTER,
+    BOTTOM_RIGHT
+}
+
+export default POSITION;
