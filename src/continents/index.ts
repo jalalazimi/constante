@@ -1,4 +1,4 @@
-enum continents {
+enum CONTINENTS {
     AFRICA = 'africa',
     ASIA = 'asia',
     EUROPE = 'europe',
@@ -8,4 +8,4 @@ enum continents {
     ANTARCTICA = 'antarctica',
 }
 
-export default continents;
+export default CONTINENTS;

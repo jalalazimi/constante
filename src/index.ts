@@ -1,2 +1,11 @@
 export {default as POSITION} from './position';
 export {default as DATE} from './date';
+export {default as CONTINENTS} from './continents';
+export {default as LANGUAGE} from './language';
+export {default as CURRENCY} from './currency';
+export {default as WEB_NAMESPACES} from './web-namespaces';
+export {default as HTML_TAG_NAMES} from './html-tag-names';
+export {default as SVG_TAG_NAMES} from './svg-tag-names';
+export {default as MATHML_TAG_NAMES} from './mathml-tag-names';
+export {default as ARIA_ATTRIBUTES} from './aria-attributes';
+export {default as JAVASCRIPT_TYPES} from './javascript-types';
