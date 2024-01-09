@@ -919,4 +919,6 @@ export const LANGUAGE = {
     dir: 'ltr',
     native: 'Norsk (bokmål)',
   },
-}
+} as const
+
+export type Language = typeof LANGUAGE[keyof typeof LANGUAGE]

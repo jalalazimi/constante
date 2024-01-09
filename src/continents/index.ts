@@ -1,22 +1,24 @@
-export enum CONTINENTS {
+export const CONTINENTS = {
   /** Continent of Africa */
-  AFRICA = 'Africa',
+  AFRICA: 'Africa',
 
   /** Continent of Asia */
-  ASIA = 'Asia',
+  ASIA: 'Asia',
 
   /** Continent of Europe */
-  EUROPE = 'Europe',
+  EUROPE: 'Europe',
 
   /** Continent of North America */
-  NORTH_AMERICA = 'North America',
+  NORTH_AMERICA: 'North America',
 
   /** Continent of Australia */
-  AUSTRALIA = 'Australia', // Consider changing to OCEANIA if including Pacific Islands
+  AUSTRALIA: 'Australia', // Consider changing to OCEANIA if including Pacific Islands
 
   /** Continent of South America */
-  SOUTH_AMERICA = 'South America',
+  SOUTH_AMERICA: 'South America',
 
   /** Continent of Antarctica */
-  ANTARCTICA = 'Antarctica',
-}
+  ANTARCTICA: 'Antarctica',
+} as const
+
+export type Continents = typeof CONTINENTS[keyof typeof CONTINENTS]

@@ -1,525 +1,529 @@
-export enum CURRENCY {
+export const CURRENCY = {
   /** United Arab Emirates Dirham */
-  AED = 'د.إ',
+  AED: 'د.إ',
   /** Afghan Afghani */
-  AFN = '؋',
+  AFN: '؋',
   /** Albanian Lek */
-  ALL = 'L',
+  ALL: 'L',
   /** Armenian Dram */
-  AMD = '֏',
+  AMD: '֏',
   /** Netherlands Antillean Guilder */
-  ANG = 'ƒ',
+  ANG: 'ƒ',
   /** Angolan Kwanza */
-  AOA = 'Kz',
+  AOA: 'Kz',
   /** Argentine Peso */
-  ARS = '$',
+  ARS: '$',
   /** Australian Dollar */
-  AUD = '$',
+  AUD: '$',
   /** Aruban Florin */
-  AWG = 'ƒ',
+  AWG: 'ƒ',
   /** Azerbaijani Manat */
-  AZN = '₼',
+  AZN: '₼',
   /** Bosnia-Herzegovina Convertible Mark */
-  BAM = 'KM',
+  BAM: 'KM',
   /** Barbadian Dollar */
-  BBD = '$',
+  BBD: '$',
   /** Bangladeshi Taka */
-  BDT = '৳',
+  BDT: '৳',
   /** Bulgarian Lev */
-  BGN = 'лв',
+  BGN: 'лв',
   /** Bahraini Dinar */
-  BHD = '.د.ب',
+  BHD: '.د.ب',
   /** Burundian Franc */
-  BIF = 'FBu',
+  BIF: 'FBu',
   /** Bermudian Dollar */
-  BMD = '$',
+  BMD: '$',
   /** Brunei Dollar */
-  BND = '$',
+  BND: '$',
   /** Bolivian Boliviano */
-  BOB = '$b',
+  BOB: '$b',
   /** Bolivian Mvdol */
-  BOV = 'BOV',
+  BOV: 'BOV',
   /** Brazilian Real */
-  BRL = 'R$',
+  BRL: 'R$',
   /** Bahamian Dollar */
-  BSD = '$',
+  BSD: '$',
   /** Bitcoin */
-  BTC = '₿',
+  BTC: '₿',
   /** Bhutanese Ngultrum */
-  BTN = 'Nu.',
+  BTN: 'Nu.',
   /** Botswana Pula */
-  BWP = 'P',
+  BWP: 'P',
   /** Belarusian Ruble */
-  BYN = 'Br',
+  BYN: 'Br',
   /** Belarusian Ruble (old) */
-  BYR = 'Br',
+  BYR: 'Br',
   /** Belize Dollar */
-  BZD = 'BZ$',
+  BZD: 'BZ$',
   /** Canadian Dollar */
-  CAD = '$',
+  CAD: '$',
   /** Congolese Franc */
-  CDF = 'FC',
+  CDF: 'FC',
   /** WIR Euro */
-  CHE = 'CHE',
+  CHE: 'CHE',
   /** Swiss Franc */
-  CHF = 'CHF',
+  CHF: 'CHF',
   /** WIR Franc */
-  CHW = 'CHW',
+  CHW: 'CHW',
   /** Chilean Unit of Account (UF) */
-  CLF = 'CLF',
+  CLF: 'CLF',
   /** Chilean Peso */
-  CLP = '$',
+  CLP: '$',
   /** Chinese Yuan */
-  CNY = '¥',
+  CNY: '¥',
   /** Colombian Peso */
-  COP = '$',
+  COP: '$',
   /** Colombian Real Value Unit */
-  COU = 'COU',
+  COU: 'COU',
   /** Costa Rican Colón */
-  CRC = '₡',
+  CRC: '₡',
   /** Cuban Convertible Peso */
-  CUC = '$',
+  CUC: '$',
   /** Cuban Peso */
-  CUP = '₱',
+  CUP: '₱',
   /** Cape Verdean Escudo */
-  CVE = '$',
+  CVE: '$',
   /** Czech Koruna */
-  CZK = 'Kč',
+  CZK: 'Kč',
   /** Djiboutian Franc */
-  DJF = 'Fdj',
+  DJF: 'Fdj',
   /** Danish Krone */
-  DKK = 'kr',
+  DKK: 'kr',
   /** Dominican Peso */
-  DOP = 'RD$',
+  DOP: 'RD$',
   /** Algerian Dinar */
-  DZD = 'دج',
+  DZD: 'دج',
   /** Egyptian Pound */
-  EGP = '£',
+  EGP: '£',
   /** Eritrean Nakfa */
-  ERN = 'Nfk',
+  ERN: 'Nfk',
   /** Ethiopian Birr */
-  ETB = 'Br',
+  ETB: 'Br',
   /** Ethereum */
-  ETH = 'Ξ',
+  ETH: 'Ξ',
   /** Euro */
-  EUR = '€',
+  EUR: '€',
   /** Fijian Dollar */
-  FJD = '$',
+  FJD: '$',
   /** Falkland Islands Pound */
-  FKP = '£',
+  FKP: '£',
   /** British Pound Sterling */
-  GBP = '£',
+  GBP: '£',
   /** Georgian Lari */
-  GEL = '₾',
+  GEL: '₾',
   /** Guernsey Pound */
-  GGP = '£',
+  GGP: '£',
   /** Ghanaian Cedi (old) */
-  GHC = '₵',
+  GHC: '₵',
   /** Ghanaian Cedi */
-  GHS = 'GH₵',
+  GHS: 'GH₵',
   /** Gibraltar Pound */
-  GIP = '£',
+  GIP: '£',
   /** Gambian Dalasi */
-  GMD = 'D',
+  GMD: 'D',
   /** Guinean Franc */
-  GNF = 'FG',
+  GNF: 'FG',
   /** Guatemalan Quetzal */
-  GTQ = 'Q',
+  GTQ: 'Q',
   /** Guyanaese Dollar */
-  GYD = '$',
+  GYD: '$',
   /** Hong Kong Dollar */
-  HKD = '$',
+  HKD: '$',
   /** Honduran Lempira */
-  HNL = 'L',
+  HNL: 'L',
   /** Croatian Kuna */
-  HRK = 'kn',
+  HRK: 'kn',
   /** Haitian Gourde */
-  HTG = 'G',
+  HTG: 'G',
   /** Hungarian Forint */
-  HUF = 'Ft',
+  HUF: 'Ft',
   /** Indonesian Rupiah */
-  IDR = 'Rp',
+  IDR: 'Rp',
   /** Israeli New Shekel */
-  ILS = '₪',
+  ILS: '₪',
   /** Isle of Man Pound */
-  IMP = '£',
+  IMP: '£',
   /** Indian Rupee */
-  INR = '₹',
+  INR: '₹',
   /** Iraqi Dinar */
-  IQD = 'ع.د',
+  IQD: 'ع.د',
   /** Iranian Rial */
-  IRR = '﷼',
+  IRR: '﷼',
   /** Icelandic Króna */
-  ISK = 'kr',
+  ISK: 'kr',
   /** Jersey Pound */
-  JEP = '£',
+  JEP: '£',
   /** Jamaican Dollar */
-  JMD = 'J$',
+  JMD: 'J$',
   /** Jordanian Dinar */
-  JOD = 'JD',
+  JOD: 'JD',
   /** Japanese Yen */
-  JPY = '¥',
+  JPY: '¥',
   /** Kenyan Shilling */
-  KES = 'KSh',
+  KES: 'KSh',
   /** Kyrgystani Som */
-  KGS = 'лв',
+  KGS: 'лв',
   /** Cambodian Riel */
-  KHR = '៛',
+  KHR: '៛',
   /** Comorian Franc */
-  KMF = 'CF',
+  KMF: 'CF',
   /** North Korean Won */
-  KPW = '₩',
+  KPW: '₩',
   /** South Korean Won */
-  KRW = '₩',
+  KRW: '₩',
   /** Kuwaiti Dinar */
-  KWD = 'KD',
+  KWD: 'KD',
   /** Cayman Islands Dollar */
-  KYD = '$',
+  KYD: '$',
   /** Kazakhstani Tenge */
-  KZT = '₸',
+  KZT: '₸',
   /** Laotian Kip */
-  LAK = '₭',
+  LAK: '₭',
   /** Lebanese Pound */
-  LBP = '£',
+  LBP: '£',
   /** Sri Lankan Rupee */
-  LKR = '₨',
+  LKR: '₨',
   /** Liberian Dollar */
-  LRD = '$',
+  LRD: '$',
   /** Lesotho Loti */
-  LSL = 'M',
+  LSL: 'M',
   /** Litecoin */
-  LTC = 'Ł',
+  LTC: 'Ł',
   /** Libyan Dinar */
-  LYD = 'LD',
+  LYD: 'LD',
   /** Moroccan Dirham */
-  MAD = 'MAD',
+  MAD: 'MAD',
   /** Moldovan Leu */
-  MDL = 'lei',
+  MDL: 'lei',
   /** Malagasy Ariary */
-  MGA = 'Ar',
+  MGA: 'Ar',
   /** Macedonian Denar */
-  MKD = 'ден',
+  MKD: 'ден',
   /** Myanma Kyat */
-  MMK = 'K',
+  MMK: 'K',
   /** Mongolian Tugrik */
-  MNT = '₮',
+  MNT: '₮',
   /** Macanese Pataca */
-  MOP = 'MOP$',
+  MOP: 'MOP$',
   /** Mauritanian Ouguiya (old) */
-  MRO = 'UM',
+  MRO: 'UM',
   /** Mauritanian Ouguiya */
-  MRU = 'UM',
+  MRU: 'UM',
   /** Mauritian Rupee */
-  MUR = '₨',
+  MUR: '₨',
   /** Maldivian Rufiyaa */
-  MVR = 'Rf',
+  MVR: 'Rf',
   /** Malawian Kwacha */
-  MWK = 'MK',
+  MWK: 'MK',
   /** Mexican Peso */
-  MXN = '$',
+  MXN: '$',
   /** Mexican Investment Unit */
-  MXV = 'MXV',
+  MXV: 'MXV',
   /** Malaysian Ringgit */
-  MYR = 'RM',
+  MYR: 'RM',
   /** Mozambican Metical */
-  MZN = 'MT',
+  MZN: 'MT',
   /** Namibian Dollar */
-  NAD = '$',
+  NAD: '$',
   /** Nigerian Naira */
-  NGN = '₦',
+  NGN: '₦',
   /** Nicaraguan Córdoba */
-  NIO = 'C$',
+  NIO: 'C$',
   /** Norwegian Krone */
-  NOK = 'kr',
+  NOK: 'kr',
   /** Nepalese Rupee */
-  NPR = '₨',
+  NPR: '₨',
   /** New Zealand Dollar */
-  NZD = '$',
+  NZD: '$',
   /** Omani Rial */
-  OMR = '﷼',
+  OMR: '﷼',
   /** Panamanian Balboa */
-  PAB = 'B/.',
+  PAB: 'B/.',
   /** Peruvian Nuevo Sol */
-  PEN = 'S/.',
+  PEN: 'S/.',
   /** Papua New Guinean Kina */
-  PGK = 'K',
+  PGK: 'K',
   /** Philippine Peso */
-  PHP = '₱',
+  PHP: '₱',
   /** Pakistani Rupee */
-  PKR = '₨',
+  PKR: '₨',
   /** Polish Złoty */
-  PLN = 'zł',
+  PLN: 'zł',
   /** Paraguayan Guarani */
-  PYG = 'Gs',
+  PYG: 'Gs',
   /** Qatari Rial */
-  QAR = '﷼',
+  QAR: '﷼',
   /** Romanian Leu */
-  RON = 'lei',
+  RON: 'lei',
   /** Serbian Dinar */
-  RSD = 'Дин.',
+  RSD: 'Дин.',
   /** Russian Ruble */
-  RUB = '₽',
+  RUB: '₽',
   /** Rwandan Franc */
-  RWF = 'R₣',
+  RWF: 'R₣',
   /** Saudi Riyal */
-  SAR = '﷼',
+  SAR: '﷼',
   /** Solomon Islands Dollar */
-  SBD = '$',
+  SBD: '$',
   /** Seychellois Rupee */
-  SCR = '₨',
+  SCR: '₨',
   /** Sudanese Pound */
-  SDG = 'ج.س.',
+  SDG: 'ج.س.',
   /** Swedish Krona */
-  SEK = 'kr',
+  SEK: 'kr',
   /** Singapore Dollar */
-  SGD = 'S$',
+  SGD: 'S$',
   /** Saint Helena Pound */
-  SHP = '£',
+  SHP: '£',
   /** Sierra Leonean Leone */
-  SLL = 'Le',
+  SLL: 'Le',
   /** Somali Shilling */
-  SOS = 'S',
+  SOS: 'S',
   /** Surinamese Dollar */
-  SRD = '$',
+  SRD: '$',
   /** South Sudanese Pound */
-  SSP = '£',
+  SSP: '£',
   /** São Tomé and Príncipe Dobra */
-  STN = 'Db',
+  STN: 'Db',
   /** Salvadoran Colón */
-  SVC = '$',
+  SVC: '$',
   /** Syrian Pound */
-  SYP = '£',
+  SYP: '£',
   /** Swazi Lilangeni */
-  SZL = 'E',
+  SZL: 'E',
   /** Thai Baht */
-  THB = '฿',
+  THB: '฿',
   /** Tajikistani Somoni */
-  TJS = 'SM',
+  TJS: 'SM',
   /** Turkmenistani Manat */
-  TMT = 'T',
+  TMT: 'T',
   /** Tunisian Dinar */
-  TND = 'د.ت',
+  TND: 'د.ت',
   /** Tongan Paʻanga */
-  TOP = 'T$',
+  TOP: 'T$',
   /** Turkish Lira */
-  TRY = '₺',
+  TRY: '₺',
   /** Trinidad and Tobago Dollar */
-  TTD = 'TT$',
+  TTD: 'TT$',
   /** Tuvalu Dollar */
-  TVD = '$',
+  TVD: '$',
   /** New Taiwan Dollar */
-  TWD = 'NT$',
+  TWD: 'NT$',
   /** Tanzanian Shilling */
-  TZS = 'TSh',
+  TZS: 'TSh',
   /** Ukrainian Hryvnia */
-  UAH = '₴',
+  UAH: '₴',
   /** Ugandan Shilling */
-  UGX = 'USh',
+  UGX: 'USh',
   /** United States Dollar */
-  USD = '$',
+  USD: '$',
   /** Uruguay Peso en Unidades Indexadas */
-  UYI = 'UYI',
+  UYI: 'UYI',
   /** Uruguayan Peso */
-  UYU = '$U',
+  UYU: '$U',
   /** Unidad Previsional */
-  UYW = 'UYW',
+  UYW: 'UYW',
   /** Uzbekistan Som */
-  UZS = 'лв',
+  UZS: 'лв',
   /** Venezuelan Bolívar (old) */
-  VEF = 'Bs',
+  VEF: 'Bs',
   /** Venezuelan Bolívar Soberano */
-  VES = 'Bs.S',
+  VES: 'Bs.S',
   /** Vietnamese Đồng */
-  VND = '₫',
+  VND: '₫',
   /** Vanuatu Vatu */
-  VUV = 'VT',
+  VUV: 'VT',
   /** Samoan Tala */
-  WST = 'WS$',
+  WST: 'WS$',
   /** Central African CFA Franc */
-  XAF = 'FCFA',
+  XAF: 'FCFA',
   /** Bitcoin */
-  XBT = 'Ƀ',
+  XBT: 'Ƀ',
   /** East Caribbean Dollar */
-  XCD = '$',
+  XCD: '$',
   /** West African CFA Franc */
-  XOF = 'CFA',
+  XOF: 'CFA',
   /** CFP Franc */
-  XPF = '₣',
+  XPF: '₣',
   /** SUCRE */
-  XSU = 'Sucre',
+  XSU: 'Sucre',
   /** ADB Unit of Account */
-  XUA = 'XUA',
+  XUA: 'XUA',
   /** Yemeni Rial */
-  YER = '﷼',
+  YER: '﷼',
   /** South African Rand */
-  ZAR = 'R',
+  ZAR: 'R',
   /** Zambian Kwacha */
-  ZMW = 'ZK',
+  ZMW: 'ZK',
   /** Zimbabwean Dollar (old) */
-  ZWD = 'Z$',
+  ZWD: 'Z$',
   /** Zimbabwean Dollar */
-  ZWL = '$',
-}
+  ZWL: '$',
+} as const
 
-export enum HISTORICAL_CURRENCY {
+export type Currency = typeof CURRENCY[keyof typeof CURRENCY]
+
+export const HISTORICAL_CURRENCY = {
   /** Afghan Afghani (old) */
-  AFA = '؋',
+  AFA: '؋',
   /** Angolan Kwanza (old) */
-  AOK = 'Kz',
+  AOK: 'Kz',
   /** Angolan New Kwanza */
-  AON = 'Kz',
+  AON: 'Kz',
   /** Angolan Readjusted Kwanza */
-  AOR = 'Kz',
+  AOR: 'Kz',
   /** Argentine Austral */
-  ARA = '₳',
+  ARA: '₳',
   /** Argentine Peso (old) */
-  ARP = '$',
+  ARP: '$',
   /** Argentine Peso Ley */
-  ARY = '$',
+  ARY: '$',
   /** Austrian Schilling */
-  ATS = 'öS',
+  ATS: 'öS',
   /** Azerbaijani Manat (old) */
-  AZM = '₼',
+  AZM: '₼',
   /** Bosnian Dinar */
-  BAD = 'дин',
+  BAD: 'дин',
   /** Belgian Franc (convertible) */
-  BEC = 'fr',
+  BEC: 'fr',
   /** Belgian Franc */
-  BEF = 'fr',
+  BEF: 'fr',
   /** Belgian Franc (financial) */
-  BEL = 'fr',
+  BEL: 'fr',
   /** Bulgarian Lev (old) */
-  BGL = 'лв',
+  BGL: 'лв',
   /** Bolivian Peso */
-  BOP = '$b',
+  BOP: '$b',
   /** Brazilian Cruzeiro (old) */
-  BRB = 'Cr$',
+  BRB: 'Cr$',
   /** Brazilian Cruzado */
-  BRC = 'Cz$',
+  BRC: 'Cz$',
   /** Brazilian Cruzeiro (2nd) */
-  BRE = 'Cr$',
+  BRE: 'Cr$',
   /** Brazilian New Cruzado */
-  BRN = 'NCz$',
+  BRN: 'NCz$',
   /** Brazilian Cruzeiro Real */
-  BRR = 'CR$',
+  BRR: 'CR$',
   /** Brazilian Cruzeiro (3rd) */
-  BRZ = 'Cr$',
+  BRZ: 'Cr$',
   /** Burmese Kyat */
-  BUK = 'Ky',
+  BUK: 'Ky',
   /** Belarusian Ruble (old) */
-  BYB = 'Br',
+  BYB: 'Br',
   /** Chilean Escudo */
-  CLE = 'E°',
+  CLE: 'E°',
   /** Serbian Dinar (old) */
-  CSD = 'дин',
+  CSD: 'дин',
   /** Czechoslovak Koruna */
-  CSK = 'Kčs',
+  CSK: 'Kčs',
   /** Cypriot Pound */
-  CYP = '£',
+  CYP: '£',
   /** East German Mark */
-  DDM = 'M',
+  DDM: 'M',
   /** German Mark */
-  DEM = 'DM',
+  DEM: 'DM',
   /** Ecuadorian Sucre */
-  ECS = 'S/.',
+  ECS: 'S/.',
   /** Ecuadorian Unit of Constant Value */
-  ECV = 'UV',
+  ECV: 'UV',
   /** Spanish Peseta (account A) */
-  ESA = '₧',
+  ESA: '₧',
   /** Spanish Peseta (account B) */
-  ESB = '₧',
+  ESB: '₧',
   /** Spanish Peseta */
-  ESP = '₧',
+  ESP: '₧',
   /** Finnish Markka */
-  FIM = 'mk',
+  FIM: 'mk',
   /** French Franc */
-  FRF = '₣',
+  FRF: '₣',
   /** Equatorial Guinean Ekwele */
-  GQE = 'Ek',
+  GQE: 'Ek',
   /** Greek Drachma */
-  GRD = 'Δρχ',
+  GRD: 'Δρχ',
   /** Portuguese Guinea Escudo */
-  GWE = 'Esc',
+  GWE: 'Esc',
   /** Guinea-Bissau Peso */
-  GWP = 'P',
+  GWP: 'P',
   /** Croatian Dinar */
-  HRD = 'din',
+  HRD: 'din',
   /** Irish Pound */
-  IEP = '£',
+  IEP: '£',
   /** Israeli Pound */
-  ILP = '£',
+  ILP: '£',
   /** Icelandic Króna (old) */
-  ISJ = 'kr',
+  ISJ: 'kr',
   /** Italian Lira */
-  ITL = '₤',
+  ITL: '₤',
   /** Jordanian Dinar (old) */
-  JOD = 'JD',
+  JOD: 'JD',
   /** South Korean Old Won */
-  KRO = '₩',
+  KRO: '₩',
   /** Luxembourg Franc */
-  LUF = 'F',
+  LUF: 'F',
   /** Malagasy Franc */
-  MGF = 'MGF',
+  MGF: 'MGF',
   /** Mali Franc */
-  MLF = 'MLF',
+  MLF: 'MLF',
   /** Maltese Lira */
-  MTL = '₤',
+  MTL: '₤',
   /** Mozambican Escudo */
-  MZE = 'Esc',
+  MZE: 'Esc',
   /** Dutch Guilder */
-  NLG = 'ƒ',
+  NLG: 'ƒ',
   /** Peruvian Inti */
-  PEI = 'I/.',
+  PEI: 'I/.',
   /** Peruvian Sol (old) */
-  PES = 'S/.',
+  PES: 'S/.',
   /** Polish Złoty (old) */
-  PLZ = 'zł',
+  PLZ: 'zł',
   /** Portuguese Escudo */
-  PTE = 'Esc',
+  PTE: 'Esc',
   /** Romanian Old Leu */
-  ROL = 'lei',
+  ROL: 'lei',
   /** Russian Ruble (old) */
-  RUR = '₽',
+  RUR: '₽',
   /** Sudanese Dinar */
-  SDD = 'LSd',
+  SDD: 'LSd',
   /** Sudanese Pound (old) */
-  SDP = '£',
+  SDP: '£',
   /** Slovenian Tolar */
-  SIT = 'SIT',
+  SIT: 'SIT',
   /** Slovak Koruna */
-  SKK = 'Sk',
+  SKK: 'Sk',
   /** Surinamese Guilder */
-  SRG = '$',
+  SRG: '$',
   /** Tajikistani Ruble */
-  TJR = 'TJR',
+  TJR: 'TJR',
   /** Turkmenistani Manat (old) */
-  TMM = 'm',
+  TMM: 'm',
   /** Turkish Lira (old) */
-  TRL = '₤',
+  TRL: '₤',
   /** Ukrainian Karbovanets */
-  UAK = 'karbovanets',
+  UAK: 'karbovanets',
   /** Ugandan Shilling (old) */
-  UGS = 'Sh',
+  UGS: 'Sh',
   /** Uruguayan Peso (old) */
-  UYP = '$U',
+  UYP: '$U',
   /** Venezuelan Bolívar (old) */
-  VEB = 'Bs',
+  VEB: 'Bs',
   /** South Yemeni Dinar */
-  YDD = 'YD',
+  YDD: 'YD',
   /** Yugoslav Dinar (old) */
-  YUD = 'дин',
+  YUD: 'дин',
   /** Yugoslav New Dinar */
-  YUM = 'Дин.',
+  YUM: 'Дин.',
   /** Yugoslav Convertible Dinar */
-  YUN = 'дин',
+  YUN: 'дин',
   /** South African Financial Rand */
-  ZAL = 'R',
+  ZAL: 'R',
   /** Zairean New Zaire */
-  ZRN = 'NZ',
+  ZRN: 'NZ',
   /** Zairean Zaire */
-  ZRZ = 'ZRZ',
+  ZRZ: 'ZRZ',
   /** Zimbabwean Rhodesian Dollar */
-  ZWC = 'ZWC',
+  ZWC: 'ZWC',
   /** Zimbabwean New Dollar */
-  ZWN = 'ZWN',
-}
+  ZWN: 'ZWN',
+} as const
+
+export type HistoricalCurrency = typeof HISTORICAL_CURRENCY[keyof typeof HISTORICAL_CURRENCY]
