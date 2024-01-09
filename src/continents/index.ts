@@ -1,11 +1,22 @@
-enum CONTINENTS {
-    AFRICA = 'africa',
-    ASIA = 'asia',
-    EUROPE = 'europe',
-    NORTH_AMERICA = 'north america',
-    AUSTRALIA = 'australia',
-    SOUTH_AMERICA = 'south america',
-    ANTARCTICA = 'antarctica',
-}
+export const enum CONTINENTS {
+  /** Continent of Africa */
+  AFRICA = 'Africa',
 
-export default CONTINENTS;
+  /** Continent of Asia */
+  ASIA = 'Asia',
+
+  /** Continent of Europe */
+  EUROPE = 'Europe',
+
+  /** Continent of North America */
+  NORTH_AMERICA = 'North America',
+
+  /** Continent of Australia */
+  AUSTRALIA = 'Australia', // Consider changing to OCEANIA if including Pacific Islands
+
+  /** Continent of South America */
+  SOUTH_AMERICA = 'South America',
+
+  /** Continent of Antarctica */
+  ANTARCTICA = 'Antarctica',
+}
