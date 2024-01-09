@@ -1,4 +1,4 @@
-export const enum CONTINENTS {
+export enum CONTINENTS {
   /** Continent of Africa */
   AFRICA = 'Africa',
 

@@ -1,4 +1,4 @@
-export const enum COLORS {
+export enum COLORS {
   AliceBlue = 'AliceBlue',
   AntiqueWhite = 'AntiqueWhite',
   Aqua = 'Aqua',

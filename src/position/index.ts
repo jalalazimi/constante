@@ -1,4 +1,4 @@
-export const enum POSITION {
+export enum POSITION {
   /** Top left position */
   TOP_LEFT,
 

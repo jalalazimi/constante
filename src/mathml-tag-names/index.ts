@@ -1,4 +1,4 @@
-enum MATHML_TAG_NAMES {
+export enum MATHML_TAG_NAMES {
   ABS = 'abs',
   AND = 'and',
   ANNOTATION = 'annotation',
@@ -189,5 +189,3 @@ enum MATHML_TAG_NAMES {
   VECTORPRODUCT = 'vectorproduct',
   XOR = 'xor',
 }
-
-export default MATHML_TAG_NAMES

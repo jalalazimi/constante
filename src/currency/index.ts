@@ -1,4 +1,4 @@
-export const enum CURRENCY {
+export enum CURRENCY {
   /** United Arab Emirates Dirham */
   AED = 'د.إ',
   /** Afghan Afghani */
@@ -361,7 +361,7 @@ export const enum CURRENCY {
   ZWL = '$',
 }
 
-export const enum HISTORICAL_CURRENCY {
+export enum HISTORICAL_CURRENCY {
   /** Afghan Afghani (old) */
   AFA = '؋',
   /** Angolan Kwanza (old) */

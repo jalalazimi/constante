@@ -1,7 +1,7 @@
 /**
  * This enum represents a list of programming languages.
  */
-export const enum PROGRAMMING_LANGUAGE {
+export enum PROGRAMMING_LANGUAGE {
   Ada = 'Ada',
   ALGOL = 'ALGOL',
   AssemblyLanguage = 'Assembly Language',

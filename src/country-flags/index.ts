@@ -1,4 +1,4 @@
-export const enum COUNTRY_FLAGS {
+export enum COUNTRY_FLAGS {
   /** Afghanistan 🇦🇫 */
   Afghanistan = '🇦🇫',
 

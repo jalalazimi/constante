@@ -1,4 +1,4 @@
-enum SVG_TAG_NAMES {
+export enum SVG_TAG_NAMES {
   A = 'a',
   ALT_GLYPH = 'altGlyph',
   ALT_GLYPH_DEF = 'altGlyphDef',
@@ -94,5 +94,3 @@ enum SVG_TAG_NAMES {
   VIEW = 'view',
   VKERN = 'vkern',
 }
-
-export default SVG_TAG_NAMES

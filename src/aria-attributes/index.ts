@@ -1,4 +1,4 @@
-export const enum ARIA_ATTRIBUTES {
+export enum ARIA_ATTRIBUTES {
   /** Identifies the currently active element when DOM focus is on a composite widget, textbox, group, or application. */
   ARIA_ACTIVEDESCENDANT = 'aria-activedescendant',
 

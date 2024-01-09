@@ -1,4 +1,4 @@
-export const enum Date {
+export enum Date {
   /** Maximum allowed time in milliseconds, calculated for a span of about 285 years */
   MAX_ALLOWED_TIME = 8640000000000000,
 

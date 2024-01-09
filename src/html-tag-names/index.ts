@@ -2,7 +2,7 @@
  * Enum for HTML Tag Names.
  * Provides a comprehensive list of HTML tags for use in TypeScript projects.
  */
-export const enum HTML_TAG_NAMES {
+export enum HTML_TAG_NAMES {
   /** Anchor tag for hyperlinks. */
   'A' = 'a',
   /** Abbreviation tag. */

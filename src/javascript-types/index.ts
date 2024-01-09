@@ -1,4 +1,4 @@
-enum JAVASCRIPT_TYPES {
+export enum JAVASCRIPT_TYPES {
   ARRAY = 'array',
   BOOLEAN = 'boolean',
   BUFFER = 'buffer',
@@ -22,5 +22,3 @@ enum JAVASCRIPT_TYPES {
   WEAKMAP = 'weakmap',
   WEAKSET = 'weakset',
 }
-
-export default JAVASCRIPT_TYPES
