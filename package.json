@@ -2,7 +2,7 @@
   "name": "constante",
   "type": "module",
   "version": "0.0.0",
-  "description": "",
+  "description": "🧩 Your versatile constant value collection for JavaScript and TypeScript.",
   "author": "Jalal Azimi <jalalazimi@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/jalalazimi/constante#readme",
@@ -11,7 +11,10 @@
     "url": "git+https://github.com/jalalazimi/constante.git"
   },
   "bugs": "https://github.com/jalalazimi/constante/issues",
-  "keywords": [],
+  "keywords": [
+    "constants",
+    "enums"
+  ],
   "sideEffects": false,
   "exports": {
     ".": {
