@@ -1,77 +1,62 @@
-# Constante - Your Constant Value Collection
+# Constante 🌟 - Your Constant Value Collection 🛠️
 
-[![npm version](https://badge.fury.io/js/constante.svg)](https://badge.fury.io/js/constante)
+Constante is an npm package 📦 that provides a wide range of constant values as enums, which can be utilized in JavaScript and TypeScript projects. It simplifies the process of using constants across different programming scenarios.
 
-Constante is a convenient npm package that offers a comprehensive collection of constant values as enums for diverse applications. It simplifies the process of accessing and utilizing these constants in your JavaScript/TypeScript projects.
+## Features 🚀
 
-## Installation
+- Comprehensive collection of constants. 🌈
+- Enumerated values for easy access and use. 🔢
+- Supports a variety of constants including colors 🎨, positions 📍, dates 📆, continents 🌍, languages 🗣️, and more.
+- Simplifies code by providing ready-to-use constant values. 🧩
 
-To integrate Constante into your project, you can use either npm or yarn:
+## Installation 🛠️
 
+Install using npm:
 ```bash
 npm install constante
 ```
 
-or
-
+Or using yarn:
 ```bash
 yarn add constante
 ```
 
-## Usage
+## Usage 💻
 
+Import the required constants and use them in your project:
 ```javascript
-const { COLORS, POSITION, DATE, CONTINENTS, LANGUAGE, CURRENCY, PROGRAMMING_LANGUAGE, COUNTRY_FLAGS, WEB_NAMESPACES, HTML_TAG_NAMES, SVG_TAG_NAMES, MATHML_TAG_NAMES, ARIA_ATTRIBUTES, JAVASCRIPT_TYPES, HTTP_STATUS_CODES } = require('constante');
+const { COLORS, POSITION, DATE, ... } = require('constante');
 
 console.log(COLORS.RED); // Outputs: 'Red'
-console.log(POSITION.TOP); // Outputs: 'Top'
-console.log(DATE.MONTHS.JANUARY); // Outputs: 'January'
-console.log(CONTINENTS.AFRICA); // Outputs: 'Africa'
-console.log(LANGUAGE.ENGLISH); // Outputs: 'English'
-console.log(CURRENCY.USD); // Outputs: 'USD'
-console.log(PROGRAMMING_LANGUAGE.JAVASCRIPT); // Outputs: 'JavaScript'
-console.log(COUNTRY_FLAGS.US); // Outputs: '🇺🇸'
-console.log(WEB_NAMESPACES.SVG); // Outputs: 'http://www.w3.org/2000/svg'
-console.log(HTML_TAG_NAMES.DIV); // Outputs: 'div'
-console.log(SVG_TAG_NAMES.CIRCLE); // Outputs: 'circle'
-console.log(MATHML_TAG_NAMES.MI); // Outputs: 'mi'
-console.log(ARIA_ATTRIBUTES.ROLE); // Outputs: 'role'
-console.log(JAVASCRIPT_TYPES.OBJECT); // Outputs: 'object'
-console.log(HTTP_STATUS_CODES.OK); // Outputs: 200
+// More examples...
 ```
 
-## Available Enums
+## Enums Available 📚
 
-The following table lists the available constants along with their descriptions:
+- COLORS: Colors enumeration. 🎨
+- POSITION: Positions enumeration. 📍
+- DATE: Date-related constants like months, days. 📆
+- CONTINENTS: Enum for continents. 🌍
+- LANGUAGE: Language codes and names. 🗣️
+- CURRENCY: Currency codes. 💲
+- PROGRAMMING_LANGUAGE: Programming languages. 👨‍💻
+- COUNTRY_FLAGS: Emoji representations of country flags. 🏳️‍🌈
+- WEB_NAMESPACES: Web-related namespace URLs. 🌐
+- HTML_TAG_NAMES: HTML tag names. 🏷️
+- SVG_TAG_NAMES: SVG tag names. 🖼️
+- MATHML_TAG_NAMES: MathML tag names. 🔢
+- ARIA_ATTRIBUTES: ARIA attributes for accessibility. ♿
+- JAVASCRIPT_TYPES: JavaScript data types. 📜
+- HTTP_STATUS_CODES: HTTP status code definitions. 🚦
 
-| Constant           | Description                                               |
-|--------------------|-----------------------------------------------------------|
-| COLORS             | Enum for colors                                           |
-| POSITION           | Enum for positions                                        |
-| DATE               | Enum for months and days of the month                     |
-| CONTINENTS         | Enum for continents                                       |
-| LANGUAGE           | Enum for languages                                        |
-| CURRENCY           | Enum for currency codes                                   |
-| PROGRAMMING_LANGUAGE| Enum for programming languages                            |
-| COUNTRY_FLAGS      | Enum for country flags (Unicode emoji representations)    |
-| WEB_NAMESPACES     | Enum for web namespaces (URLs)                            |
-| HTML_TAG_NAMES     | Enum for HTML tag names                                   |
-| SVG_TAG_NAMES      | Enum for SVG tag names                                    |
-| MATHML_TAG_NAMES   | Enum for MathML tag names                                 |
-| ARIA_ATTRIBUTES    | Enum for ARIA (Accessible Rich Internet Applications) attributes |
-| JAVASCRIPT_TYPES   | Enum for JavaScript data types                            |
-| HTTP_STATUS_CODES  | Enum for HTTP status codes                                |
+## Contributing 🤝
 
-These enums provide easy access to constant values related to various aspects of web development, data representation, and more, making Constante a versatile tool for different use cases.
+Contributions are welcome. Open issues or submit pull requests on our [GitHub repository](https://github.com/jalalazimi/constante).
 
-## Contribution
+## License 📄
 
-We welcome contributions to Constante. If you encounter any issues or have suggestions, please don't hesitate to open issues or submit pull requests on our [GitHub repository](https://github.com/jalalazimi/constante).
+This project is open-sourced under the [MIT License](LICENSE).
 
-## License
+## Feedback and Support 📢
 
-Constante is an open-source project released under the [MIT License](LICENSE).
-
-## Feedback and Support
-
-For any questions or feedback, please feel free to reach out on our [GitHub repository](https://github.com/jalalazimi/constante). Your input is highly valued.
+For questions or feedback, reach out on our [GitHub repository](https://github.com/jalalazimi/constante). Your input is valued and appreciated. 🌟

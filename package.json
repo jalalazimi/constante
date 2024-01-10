@@ -12,8 +12,27 @@
   },
   "bugs": "https://github.com/jalalazimi/constante/issues",
   "keywords": [
+    "enums",
     "constants",
-    "enums"
+    "enumerations",
+    "javascript",
+    "typescript",
+    "colors",
+    "positions",
+    "dates",
+    "continents",
+    "languages",
+    "currencies",
+    "programming-languages",
+    "country-flags",
+    "web-namespaces",
+    "html-tags",
+    "svg-tags",
+    "mathml-tags",
+    "aria-attributes",
+    "javascript-types",
+    "http-status-codes",
+    "code-simplification"
   ],
   "sideEffects": false,
   "exports": {
